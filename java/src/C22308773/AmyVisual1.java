@@ -16,7 +16,7 @@ public class AmyVisual1 extends Visual
     {
         if (key == ' ')
         {
-            getAudioPlayer().cue(0);
+            getAudioPlayer().cue(20000);
             getAudioPlayer().play();
             
         }
