@@ -1,44 +1,22 @@
 package C22787471;
 
-import ie.tudublin.Visual;
+import ie.tudublin.OurVisual;
+import processing.core.*;
 
-public class CiaraVisual1 extends Visual
+// This is an example of a visual that renders the waveform
+public class CiaraVisual1
 {
-    
-    public void settings()
+    OurVisual ov;
+
+    // public WaveForm(MyVisual mv)
+    public CiaraVisual1(OurVisual ov)
     {
-        size(800, 800, P3D);
-        println("CWD: " + System.getProperty("user.dir"));
-        //fullScreen(P3D, SPAN);
+        this.ov = ov;
     }
 
-    public void keyPressed()
+    public void render()
     {
-        if (key == ' ')
-        {
-            getAudioPlayer().cue(0);
-            getAudioPlayer().play();
-            
-        }
-    }
-
-    public void setup()
-    {
-        colorMode(HSB);
-        noCursor();
+        ov.colorMode(PApplet.HSB);
         
-        setFrameSize(256);
-
-        startMinim();
-        loadAudio("java/data/CrazyFrog.mp3");
-        //getAp().play();
-        //startListening(); 
-        
-    }
-
-
-    public void draw()
-    {
-
     }
 }

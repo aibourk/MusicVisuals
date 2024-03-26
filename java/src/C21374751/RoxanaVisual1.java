@@ -1,57 +1,35 @@
 package C21374751;
 
-import ie.tudublin.Visual;
+import ie.tudublin.OurVisual;
+import processing.core.*;
 
-public class RoxanaVisual1 extends Visual
+// This is an example of a visual that renders the waveform
+public class RoxanaVisual1
 {
-    private int startTime;
-    private int endTime;
+    OurVisual ov;
 
-    public void settings()
+    // public WaveForm(MyVisual mv)
+    public RoxanaVisual1(OurVisual ov)
     {
-        size(800, 800, P3D);
-        println("CWD: " + System.getProperty("user.dir"));
-        //fullScreen(P3D, SPAN);
+        this.ov = ov;
     }
 
-    public void keyPressed()
+    public void render()
     {
-        if (key == ' ')
-        {
-             getAudioPlayer().cue(43);
-            getAudioPlayer().play();
-            startTime = millis(); // Record start time
-            endTime = startTime + 27 * 1000; // Set end time to 1 minute 10 seconds
-        }
-    }
+        // float hue = map(getAmplitude(), 0, 1, 0, 255);
+        // fill(hue, 255, 255);
+        // rectMode(CENTER);
+        // float size = map(getSmoothedAmplitude(), 0, 1, 0, 400);
+        // rect(width / 2, height / 2, size, size);
 
-    public void setup()
-    {
-        colorMode(HSB);
-        noCursor();
-        
-        setFrameSize(256);
+        // ^ original code and then below is slightly edited to work with the OurVisual class
 
-        startMinim();
-        loadAudio("java/data/CrazyFrog.mp3");
-    }
+        ov.colorMode(PApplet.HSB);
+        float hue = PApplet.map(ov.getAmplitude(), 0, 1, 0, 255);
+        ov.fill(hue, 255, 255);
+        ov.rectMode(PApplet.CENTER);
+        float size = PApplet.map(ov.getSmoothedAmplitude(), 0, 1, 0, 400);
+        ov.rect(ov.width / 2, ov.height / 2, size, size);
 
-    public void draw()
-    {
-        background(0);
-
-        // Check if the current time has exceeded the end time
-        if (millis() >= endTime) {
-            getAudioPlayer().pause(); // Pause audio
-            return; // Exit draw loop
-        }
-
-        // Your visualization code goes here
-        // Example: Draw a rectangle that changes color over time
-        float hue = map(getAmplitude(), 0, 1, 0, 255);
-        fill(hue, 255, 255);
-        rectMode(CENTER);
-        float size = map(getSmoothedAmplitude(), 0, 1, 0, 400);
-        rect(width / 2, height / 2, size, size);
     }
 }
