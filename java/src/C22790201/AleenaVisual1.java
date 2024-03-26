@@ -1,44 +1,22 @@
 package C22790201;
 
-import ie.tudublin.Visual;
+import ie.tudublin.OurVisual;
+import processing.core.*;
 
-public class AleenaVisual1 extends Visual
+// This is an example of a visual that renders the waveform
+public class AleenaVisual1
 {
+    OurVisual ov;
 
-    public void settings()
+    // public WaveForm(MyVisual mv)
+    public AleenaVisual1(OurVisual ov)
     {
-        size(800, 800, P3D);
-        println("CWD: " + System.getProperty("user.dir"));
-        //fullScreen(P3D, SPAN);
+        this.ov = ov;
     }
 
-    public void keyPressed()
+    public void render()
     {
-        if (key == ' ')
-        {
-            getAudioPlayer().cue(0);
-            getAudioPlayer().play();
-            
-        }
-    }
-
-    public void setup()
-    {
-        colorMode(HSB);
-        noCursor();
-        
-        setFrameSize(256);
-
-        startMinim();
-        loadAudio("java/data/CrazyFrog.mp3");
-        //getAp().play();
-        //startListening(); 
+        ov.colorMode(PApplet.HSB);
         
     }
-
-
-    public void draw()
-    {
-
-    }    
 }

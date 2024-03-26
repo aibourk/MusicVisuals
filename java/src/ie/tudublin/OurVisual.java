@@ -12,6 +12,11 @@ import ie.tudublin.*;
 public class OurVisual extends Visual {
     WaveForm wf;
     AudioBandsVisual abv;
+    AmyVisual1 ai1;
+    AleenaVisual1 am1;
+    CiaraVisual1 ct1;
+    RoxanaVisual1 rr1;
+
 
     public void settings() {
         size(1024, 500);
@@ -35,6 +40,10 @@ public class OurVisual extends Visual {
         
         wf = new WaveForm(this);
         abv = new AudioBandsVisual(this);
+        ai1 = new AmyVisual1(this);
+        am1 = new AleenaVisual1(this);
+        ct1 = new CiaraVisual1(this);
+        rr1 = new RoxanaVisual1(this);
     }
 
     public void keyPressed() {
@@ -50,30 +59,24 @@ public class OurVisual extends Visual {
 
         if(getAudioPlayer().position() <= 27000)
         {
-            wf.render();
+            ai1.render();
         }
         else if(getAudioPlayer().position() >= 27001 && getAudioPlayer().position() <= 42000)
         {
-            abv.render();
+            am1.render();
         }
         else if(getAudioPlayer().position() >= 42001 && getAudioPlayer().position() <= 70000)
         {
-            wf.render();
+            rr1.render();
         }
         else if(getAudioPlayer().position() >= 70001  && getAudioPlayer().position() < 84000)
         {
-            abv.render();
+            am1.render();
         }
         else if(getAudioPlayer().position() >= 84001 && getAudioPlayer().position() < 110000)
         {
-            wf.render();
+            ct1.render();
         }
-
-
-        // getAudioPlayer().cue(0);
-        // getAudioPlayer().play(27000);
-        // getAudioPlayer().pause();
-        
 
 
         try {
