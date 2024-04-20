@@ -1,0 +1,440 @@
+[33mcommit 86702c6444a830614cdb1e616e6562818d3d8ba9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mrr.1[m[33m, [m[1;31mupstream/master[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: b6f3fcf e9ecda6
+Author: aleenamatt1 <129902591+aleenamatt1@users.noreply.github.com>
+Date:   Tue Mar 26 14:54:34 2024 +0000
+
+    Merge pull request #5 from aibourk/am.1
+    
+    Am.1
+
+[33mcommit e9ecda63ce6936f9f9022974c10ee2008db8064f[m[33m ([m[1;31morigin/am.1[m[33m)[m
+Merge: c9b5545 26dfab9
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 14:51:21 2024 +0000
+
+    erge branch 'am.1' of https://github.com/aibourk/MusicVisuals into am.1
+
+[33mcommit c9b5545e6db78931e7022affebb858b6abac00f0[m
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 14:49:46 2024 +0000
+
+    test
+
+[33mcommit b6f3fcf40e495e69256622ed5a05906fb38c7717[m[33m ([m[1;31morigin/rr.1[m[33m)[m
+Merge: 26dfab9 eb58204
+Author: c21374751 <158525844+c21374751@users.noreply.github.com>
+Date:   Tue Mar 26 14:46:24 2024 +0000
+
+    Merge pull request #4 from aibourk/rr.1
+    
+    Rr.1
+
+[33mcommit eb58204de32a5d061a07dc8404316e9be46c7922[m
+Merge: 5dc3c1d 26dfab9
+Author: Roxana <c21374751@mytudublin.ie>
+Date:   Tue Mar 26 14:38:52 2024 +0000
+
+    Merge branch 'master' of https://github.com/aibourk/MusicVisuals into rr.1
+
+[33mcommit 26dfab9d8b83a65e6cc5c4ed155440d3f1a7816c[m[33m ([m[1;31mupstream/am.1[m[33m)[m
+Merge: 1f71ba6 1e9f30c
+Author: aleenamatt1 <129902591+aleenamatt1@users.noreply.github.com>
+Date:   Tue Mar 26 14:37:56 2024 +0000
+
+    Merge pull request #3 from aibourk/am.1
+    
+    Am.1
+
+[33mcommit 5dc3c1d0eb2265a2461d91d6c4a8eb1eae5f48ef[m[33m ([m[1;31mupstream/rr.1[m[33m)[m
+Merge: 41849ab 1f71ba6
+Author: Roxana <c21374751@mytudublin.ie>
+Date:   Tue Mar 26 14:35:32 2024 +0000
+
+    Merge branch 'master' of https://github.com/aibourk/MusicVisuals into rr.1
+
+[33mcommit 41849ab0ad6a47ef74bc1d9d9893c981b04f78a2[m
+Author: Roxana <c21374751@mytudublin.ie>
+Date:   Tue Mar 26 14:31:38 2024 +0000
+
+    test
+
+[33mcommit 1f71ba652793dd94fc501b53dabba27cf72f4310[m[33m ([m[1;31mupstream/ai.2[m[33m, [m[1;31morigin/ai.2[m[33m)[m
+Merge: a10ff6e 6be34dc
+Author: Amy <124152568+aibourk@users.noreply.github.com>
+Date:   Tue Mar 26 14:31:09 2024 +0000
+
+    Merge pull request #2 from aibourk/ai.1
+    
+    made OurVisuals file in tudublin folder
+
+[33mcommit 1e9f30cba61a284e48d6d5cb625aa2df06fe1659[m
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 14:27:58 2024 +0000
+
+    test
+
+[33mcommit 6be34dcdf211aa543645211e445651536a01e6fb[m[33m ([m[1;31morigin/ai.1[m[33m)[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 26 14:25:07 2024 +0000
+
+    made OurVisuals file in tudublin folder
+
+[33mcommit 9620ac0d87ee017ad425923f353d887d9c39d339[m
+Merge: 0ddacf0 a10ff6e
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 13:42:03 2024 +0000
+
+    Merge branch 'am.1' of https://github.com/aibourk/MusicVisuals into am.1
+
+[33mcommit a10ff6e36bb4a542cbf55742c5e23a60ee4153b6[m[33m ([m[1;31mupstream/ct.1[m[33m, [m[1;31morigin/ct.1[m[33m)[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 26 13:35:40 2024 +0000
+
+    .DS_Store banished!
+
+[33mcommit 0ddacf05716712ca412b9d472e4e4173adbf7c98[m
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 13:18:04 2024 +0000
+
+    deleted branch
+
+[33mcommit f99c622729d007e8d4fd29007c978eab63ac6e7c[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Roxana <c21374751@mytudublin.ie>
+Date:   Tue Mar 26 12:59:58 2024 +0000
+
+    r
+
+[33mcommit c0738588778a315bd97b01b1ec14f3ebfda86afc[m
+Merge: df0f1f7 aaa79d7
+Author: Roxana <c21374751@mytudublin.ie>
+Date:   Tue Mar 26 12:48:59 2024 +0000
+
+    Merge branch 'master' of https://github.com/aibourk/MusicVisuals
+
+[33mcommit df0f1f7d366c224c40d42b2a2e66c35a2746d071[m
+Author: Roxana <c21374751@mytudublin.ie>
+Date:   Tue Mar 26 12:48:24 2024 +0000
+
+    roxana
+
+[33mcommit aaa79d758280b363c3b43c223709599ec89119ce[m
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 12:47:25 2024 +0000
+
+    test
+
+[33mcommit c0bd21496aeffe969ad03eb854d9f6a7695bad03[m
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 12:44:52 2024 +0000
+
+    test
+
+[33mcommit 41ceea80b2c553c5c9817ef843e9eda6074f7524[m
+Merge: 450af97 beb8ac7
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 12:38:56 2024 +0000
+
+    Merge branch 'master' of https://github.com/aibourk/MusicVisuals
+
+[33mcommit beb8ac73b176706d7fed5e88a818ad516633551c[m
+Author: Roxana <c21374751@mytudublin.ie>
+Date:   Tue Mar 26 12:28:19 2024 +0000
+
+    time stamps
+
+[33mcommit 450af97619cee764c049e6429acc4655a03755cc[m
+Merge: 64457e7 59ccf83
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 12:26:23 2024 +0000
+
+    aleena
+
+[33mcommit 64457e72acb031ff05a9ec1dbbcaeeedb8f89e80[m
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 26 11:45:25 2024 +0000
+
+    aleena
+
+[33mcommit 59ccf83ebaabe1fb42513b4688c545183ff6b01e[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Mon Mar 25 18:24:10 2024 +0000
+
+    fixing .gitignore .DS_Store
+
+[33mcommit bdafc82ecc9aeb623e8406a4492a2b49fc60f124[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Mon Mar 25 18:22:04 2024 +0000
+
+    removing .DS_Store
+
+[33mcommit a082365638d9fd25b011d9345bf7f46bc1d30746[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Mon Mar 25 18:19:34 2024 +0000
+
+    committing
+
+[33mcommit e13114ba79c36a7c85151424de0646f884972bc5[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Mon Mar 25 18:14:49 2024 +0000
+
+    committing
+
+[33mcommit 222b0cee6faa7f9b42171c284b1c4563b8229653[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Mon Mar 25 18:14:22 2024 +0000
+
+    committing
+
+[33mcommit feb72838d317b1fabfb7a2c124035c20c31e9587[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Mon Mar 25 18:13:36 2024 +0000
+
+    committing
+
+[33mcommit d2b71a764f1a21c78f7211df5a4997f679055e72[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Mon Mar 25 17:59:23 2024 +0000
+
+    Added basis code to visual files
+
+[33mcommit f05081358ebbfe461396bb9a6cadf71b17070239[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Mon Mar 25 15:49:32 2024 +0000
+
+    Added student number packages and created visual files
+
+[33mcommit 5f84d80a1da8ae6be1aeb67c35cc0223400e3803[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 16:08:40 2024 +0000
+
+    add song to code
+
+[33mcommit 17c3f6cfc2c49f5e442c7c1084a99dad5700ef2f[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 16:01:31 2024 +0000
+
+    add song to code
+
+[33mcommit be1a7c426f35446d06c6ea4f4524ef61dbf02fbe[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 15:50:12 2024 +0000
+
+    removed space in song name
+
+[33mcommit b3e42de810dfc2e0a6f9e7985d617e827dea48f2[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 15:48:02 2024 +0000
+
+    changed song type (.mp3)
+
+[33mcommit f3962791c5d7cf531bf1e5a37638d6e299a598ce[m
+Merge: 3dc85a3 7e2d0eb
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 15:44:40 2024 +0000
+
+    Merge branch 'master' of https://github.com/aibourk/MusicVisuals
+    merge conflict solve
+
+[33mcommit 3dc85a3c4dda8955e1c37da79bc998f08a776f3c[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 15:40:30 2024 +0000
+
+    added song
+
+[33mcommit 7e2d0eb0d847d0a470d7491a912c226439e7a420[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 15:40:30 2024 +0000
+
+    created araVisual.java
+
+[33mcommit 8b43fe18921602a83bf65079f8f810ffb2e9d21c[m
+Merge: 15e176e e2fde35
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 19 15:09:34 2024 +0000
+
+    aleena
+
+[33mcommit e2fde3568fba298cb96bb58d69effbbe0f48bd4b[m
+Merge: 5cf1d2c 9e24cfb
+Author: Roxana <c21374751@mytudublin.ie>
+Date:   Tue Mar 19 15:04:18 2024 +0000
+
+    Resolved merge conflict in java/.project
+
+[33mcommit 5cf1d2cbb2c1a17688c8360bf10f730a810b447d[m
+Author: Roxana <c21374751@mytudublin.ie>
+Date:   Tue Mar 19 14:53:40 2024 +0000
+
+    Hi
+
+[33mcommit 9e24cfbc891f537e45c500a17cfbf1167bdde6a5[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 14:51:44 2024 +0000
+
+    created araVisual.java
+
+[33mcommit 15e176e1f18b506b394b17abb805bb37e64e17f1[m
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Tue Mar 19 14:49:59 2024 +0000
+
+    hi
+
+[33mcommit 2eb77c6597c6f58ceaa879b799374ef7cff2975d[m
+Merge: 994cc69 17d8cb0
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 14:45:33 2024 +0000
+
+    new package
+
+[33mcommit 994cc69cc05b93085333144999262bc2a2dde7a1[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 14:44:43 2024 +0000
+
+    new package
+
+[33mcommit 6b9e4b5f10903ed3690794c235ff8f8c39f34f17[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Tue Mar 19 14:43:48 2024 +0000
+
+    new package
+
+[33mcommit 17d8cb0b520eee31ae714207791ba07f87d245a0[m
+Author: Aleena <C22790201@mytudublin.ie>
+Date:   Wed Mar 13 17:19:15 2024 +0000
+
+    aleena
+
+[33mcommit 4c7cb2161524d10ead00990d2b160f7e4f217cc8[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Wed Mar 13 16:40:54 2024 +0000
+
+    test-amy
+
+[33mcommit f90967a2832a737d92eabc76cc421b082c44cfe2[m
+Author: Amy <amy.ibourk@gmail.com>
+Date:   Wed Mar 13 16:32:54 2024 +0000
+
+    test
+
+[33mcommit 5644fe9181c2bd3623d1cfc5238e8941ec0a78ae[m
+Merge: e046dab 162948c
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Wed Feb 7 10:17:35 2024 +0000
+
+    Merge pull request #26 from D22124651/master
+    
+    macs on apple silicon support added
+
+[33mcommit 162948cba7cdc0010a93bcf771dbf51f617cdf4a[m
+Author: Artem Mikheev <artemmikheev@Artems-MacBook-Pro.local>
+Date:   Thu Jan 25 15:58:20 2024 +0000
+
+    macs on apple silicon support added
+
+[33mcommit e046dab1e2b251637c1ad34172fa1ad88182298f[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Mon Apr 12 22:53:18 2021 +0100
+
+    several fixes
+
+[33mcommit 992ecfa22c6a6d5fd410f43a5223718fe62e93ae[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Mon Apr 12 15:40:32 2021 +0100
+
+    latest processing libraries
+
+[33mcommit 95c87ea607180366adffa1019a39dc3fece0a3c1[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Mon Apr 12 14:40:26 2021 +0100
+
+    Added getFFT method
+
+[33mcommit c750dfc61c2df7f10f02ae441fdd6b5fd0dde632[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Mon Mar 22 11:54:02 2021 +0000
+
+    bla
+
+[33mcommit cc0250fe11bfd31233735e224c9253c06ad1e5b1[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Mon Apr 27 12:05:52 2020 +0100
+
+    rotating bands
+
+[33mcommit 4544869fc088cc2d72d157835b14734e61ace876[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Tue Mar 24 21:23:07 2020 +0000
+
+    bla
+
+[33mcommit 85950761a79769a29c0478318c253c2a70a11a02[m
+Author: skooter500 <skooter500@gmail.com>
+Date:   Tue Mar 24 21:21:25 2020 +0000
+
+    moved the data folder
+
+[33mcommit fbabb794e44518a2adaf6d11c54fb2b423118027[m
+Author: skooter500 <skooter500@gmail.com>
+Date:   Tue Mar 24 20:48:27 2020 +0000
+
+    bla
+
+[33mcommit f8cddc3321f0c7042be7cb9e021dd337052a3698[m
+Author: skooter500 <skooter500@gmail.com>
+Date:   Tue Mar 24 20:17:38 2020 +0000
+
+    fixes for mac
+
+[33mcommit f3e5b6f7fdfcf021729d8267c35773eccbb92fba[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Fri Mar 20 16:38:09 2020 +0000
+
+    fixed run.sh
+
+[33mcommit 8fdad31eb6d846eae750d67fa68fdb1715bc59aa[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Sun Mar 15 14:37:20 2020 +0000
+
+    Added the two cubes example
+
+[33mcommit 6598473b8043a4fcec423b3cb529161ab617dc6c[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Thu Mar 12 10:27:39 2020 +0000
+
+    bla
+
+[33mcommit 0da691edba22dac90fa9f6589da289f29b9e060a[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Mon Mar 9 11:19:20 2020 +0000
+
+    fixed compile.sh
+
+[33mcommit 66f50357b6512d275ac1c52bed28e9e01c8c5465[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Tue Mar 3 15:04:11 2020 +0000
+
+    bla
+
+[33mcommit 958c4f3622030447f1091921e0264eb4552bcdd4[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Tue Mar 3 14:35:01 2020 +0000
+
+    changed package name
+
+[33mcommit a789b49a1a984e3e15fcf4203acb58bc8f256cff[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Tue Mar 3 13:40:57 2020 +0000
+
+    bla
+
+[33mcommit 90a87f17e29449046aa9b63982b156d51e39b975[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Tue Mar 3 13:33:27 2020 +0000
+
+    bla
+
+[33mcommit fa745bb297d1334fbd666a548802767e40e6c83d[m
+Author: Bryan Duggan <skooter500@gmail.com>
+Date:   Tue Mar 3 13:28:13 2020 +0000
+
+    starter code
