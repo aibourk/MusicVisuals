@@ -4,8 +4,18 @@ import C22308773.AmyVisual1;
 import C21374751.RoxanaVisual1;
 import C22787471.CiaraVisual1;
 import C22790201.AleenaVisual1;
+import example.AudioBandsVisual;
+import example.WaveForm;
+import ie.tudublin.*;
+
 
 public class OurVisual extends Visual {
+    WaveForm wf;
+    AudioBandsVisual abv;
+    AmyVisual1 ai1;
+    AleenaVisual1 am1;
+    CiaraVisual1 ct1;
+    RoxanaVisual1 rr1;
 
 
     public void settings() {
@@ -26,6 +36,14 @@ public class OurVisual extends Visual {
 
         // Call this instead to read audio from the microphone
         // startListening();
+
+        
+        wf = new WaveForm(this);
+        abv = new AudioBandsVisual(this);
+        ai1 = new AmyVisual1(this);
+        am1 = new AleenaVisual1(this);
+        ct1 = new CiaraVisual1(this);
+        rr1 = new RoxanaVisual1(this);
     }
 
     public void keyPressed() {
@@ -35,8 +53,32 @@ public class OurVisual extends Visual {
         }
     }
 
+
     public void draw() {
         background(0);
+
+        if(getAudioPlayer().position() <= 27000)
+        {
+            ai1.render();
+        }
+        else if(getAudioPlayer().position() >= 27001 && getAudioPlayer().position() <= 42000)
+        {
+            am1.render();
+        }
+        else if(getAudioPlayer().position() >= 42001 && getAudioPlayer().position() <= 70000)
+        {
+            rr1.render();
+        }
+        else if(getAudioPlayer().position() >= 70001  && getAudioPlayer().position() < 84000)
+        {
+            am1.render();
+        }
+        else if(getAudioPlayer().position() >= 84001 && getAudioPlayer().position() < 110000)
+        {
+            ct1.render();
+        }
+
+
         try {
             // Call this if you want to use FFT data
             calculateFFT();
@@ -48,6 +90,7 @@ public class OurVisual extends Visual {
 
         // Call this is you want to get the average amplitude
         calculateAverageAmplitude();
-
+        // wf.render();
+        // abv.render();
     }
 }
