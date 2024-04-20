@@ -3,33 +3,32 @@ package C21374751;
 import ie.tudublin.OurVisual;
 import processing.core.*;
 
-// This is an example of a visual that renders the waveform
 public class RoxanaVisual1
 {
     OurVisual ov;
+    PImage frogImage; // Load an image of a frog
 
-    // public WaveForm(MyVisual mv)
+    float jumpHeight = 0; // Variable to control the height of the frog's jump
+
     public RoxanaVisual1(OurVisual ov)
     {
         this.ov = ov;
+        frogImage = ov.loadImage("frog.png"); // Load the image of the frog
     }
 
     public void render()
     {
-        // float hue = map(getAmplitude(), 0, 1, 0, 255);
-        // fill(hue, 255, 255);
-        // rectMode(CENTER);
-        // float size = map(getSmoothedAmplitude(), 0, 1, 0, 400);
-        // rect(width / 2, height / 2, size, size);
+        ov.background(0); // Set background to black
 
-        // ^ original code and then below is slightly edited to work with the OurVisual class
+        // Calculate the y-position of the frog based on the amplitude of the sound
+        float yPos = ov.map(ov.getAmplitude(), 0, 1, ov.height, 0);
+        yPos += jumpHeight; // Add jump height to y-position
 
-        ov.colorMode(PApplet.HSB);
-        float hue = PApplet.map(ov.getAmplitude(), 0, 1, 0, 255);
-        ov.fill(hue, 255, 255);
-        ov.rectMode(PApplet.CENTER);
-        float size = PApplet.map(ov.getSmoothedAmplitude(), 0, 1, 0, 400);
-        ov.rect(ov.width / 2, ov.height / 2, size, size);
+        // Draw the frog image at the center of the screen
+        ov.imageMode(PApplet.CENTER);
+        ov.image(frogImage, ov.width / 2, yPos);
 
+        // Update jump height based on the amplitude of the sound
+        jumpHeight = ov.map(ov.getSmoothedAmplitude(), 0, 1, -100, 100);
     }
 }
