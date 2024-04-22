@@ -1,19 +1,30 @@
 # Music Visualiser Project
 
-Name: tewstasdfghj
+Audio Name: Crazy Frog - Axel F
 
-Student Number: 
+| Name | Student Number |
+|-----------|-----------|
+|Amy Ibourk | C22308773 |
+|Roxana Rakhmatullina | C21374751 |
+|Ciara Trani | C22787471 |
+|Aleena Mattathil | C22790201 |
 
-## Instructions
-- Fork this repository and use it a starter project for your assignment
-- Create a new package named your student number and put all your code in this package.
-- You should start by creating a subclass of ie.tudublin.Visual
-- There is an example visualiser called MyVisual in the example package
-- Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
+## Video
 
-# Description of the assignment 
-- This assignment 
-# Instructions
+
+# Screenshots
+### Visual 1
+
+### Visual 2
+
+### Visual 3
+
+### Visual 4
+
+### Visual 5
+
+# Description of the Project
+Using Processing, our team created visuals for our chosen audio Axel F by Crazy Frog. 
 
 # How it works
 
@@ -83,10 +94,4 @@ This is a youtube video:
 
 This is a table:
 
-| Heading 1 | Heading 2 |
-|-----------|-----------|
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
-|Some stuff | Some more stuff in this column |
 
