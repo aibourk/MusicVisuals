@@ -17,6 +17,17 @@ public class CiaraVisual1
     public void render()
     {
         ov.colorMode(PApplet.HSB);
+        ov.rectMode(PApplet.CENTER);
         
     }
+
+    float a;
+
+    public void draw() {
+        background(0);
+        fill
+    }
+
+
+    
 }
