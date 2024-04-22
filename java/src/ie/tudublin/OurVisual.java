@@ -16,6 +16,7 @@ public class OurVisual extends Visual {
     AleenaVisual1 am1;
     CiaraVisual1 ct1;
     RoxanaVisual1 rr1;
+    char selectedVisual = ' ';
 
 
     public void settings() {
@@ -51,12 +52,16 @@ public class OurVisual extends Visual {
             getAudioPlayer().cue(0);
             getAudioPlayer().play();
         }
+        else {
+            selectedVisual = key;
+        }
     }
 
 
     public void draw() {
         background(0);
-
+        //timestamp method
+        /* 
         if(getAudioPlayer().position() <= 27000)
         {
             ai1.render();
@@ -77,7 +82,26 @@ public class OurVisual extends Visual {
         {
             ct1.render();
         }
+        */
 
+        //switch case method
+        switch(selectedVisual) {
+            case '0':
+                ai1.render();
+                break;
+            case '1':
+                rr1.render();
+                break;
+            case '2':
+                ct1.render();
+                break;
+            case '3':
+                am1.render();
+                break;
+            default:
+                am1.render();
+                break;
+        }
 
         try {
             // Call this if you want to use FFT data
