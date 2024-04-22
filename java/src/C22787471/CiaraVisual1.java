@@ -83,9 +83,9 @@ public class CiaraVisual1 extends PApplet
             if (!exploded) {
                 // Simulate the firework rising up
                 pos.x = 500;
-                pos.y = 50;
+                pos.y = 250;
                 // If the firework reaches its peak, explode
-                if (pos.y <= height * 5) {
+                if (pos.y <= height * 100) {
                     explode();
                 }
             } else {
