@@ -4,6 +4,7 @@ import C22308773.AmyVisual1;
 import C21374751.RoxanaVisual1;
 import C22787471.CiaraVisual1;
 import C22790201.AleenaVisual1;
+import C22790201.AleenaVisual2;
 import example.AudioBandsVisual;
 import example.WaveForm;
 import ie.tudublin.*;
@@ -16,6 +17,7 @@ public class OurVisual extends Visual {
     AleenaVisual1 am1;
     CiaraVisual1 ct1;
     RoxanaVisual1 rr1;
+    AleenaVisual2 am2;
     char selectedVisual = ' ';
 
 
@@ -45,6 +47,7 @@ public class OurVisual extends Visual {
         am1 = new AleenaVisual1(this);
         ct1 = new CiaraVisual1(this);
         rr1 = new RoxanaVisual1(this);
+        am2 = new AleenaVisual2(this);
     }
 
     public void keyPressed() {
@@ -98,6 +101,8 @@ public class OurVisual extends Visual {
             case '3':
                 am1.render();
                 break;
+            case '4':
+                am2.render();
             default:
                 am1.render();
                 break;
