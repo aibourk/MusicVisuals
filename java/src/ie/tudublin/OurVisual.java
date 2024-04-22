@@ -7,6 +7,7 @@ import C22790201.AleenaVisual1;
 import example.AudioBandsVisual;
 import example.WaveForm;
 import ie.tudublin.*;
+import ddf.minim.*;
 
 
 public class OurVisual extends Visual {
@@ -17,12 +18,14 @@ public class OurVisual extends Visual {
     CiaraVisual1 ct1;
     RoxanaVisual1 rr1;
 
+    public boolean isPlaying = false;
+
 
     public void settings() {
-        size(1024, 500);
+        // size(1024, 500);
 
         // Use this to make fullscreen
-        // fullScreen();
+        fullScreen();
 
         // Use this to make fullscreen and use P3D for 3D graphics
         // fullScreen(P3D, SPAN);
@@ -50,6 +53,8 @@ public class OurVisual extends Visual {
         if (key == ' ') {
             getAudioPlayer().cue(0);
             getAudioPlayer().play();
+            isPlaying = true;
+
         }
     }
 
