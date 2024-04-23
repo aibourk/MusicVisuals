@@ -15,6 +15,7 @@ public class AmyVisual1
     Square[] squares;
     int numSquares = 12;
 
+
     public AmyVisual1(OurVisual ov)
     {
         this.ov = ov;
@@ -31,10 +32,16 @@ public class AmyVisual1
 
     public void render()
     {
+        ov.colorMode(PApplet.HSB);
+        // hue = PApplet.map(ov.getSmoothedAmplitude(), 0, 256, 0, 256);
+
         if(ov.isPlaying == true)
         {
+            
             for (Square square : squares) {
+
                 square.display(); 
+                
                 square.update();
             }
         }
@@ -47,7 +54,6 @@ public class AmyVisual1
         float rotation = 0;
         float halfH = ov.height / 2;
         int size = 0;    
-        float hue = 0f;
         
         public void display()
         {
@@ -66,9 +72,8 @@ public class AmyVisual1
         public void update()
         {
             rotation += 0.01f;
-            side = (ov.getSmoothedAmplitude() * halfH * 5) + size;
-            hue = ov.map(ov.getSmoothedAmplitude(), 0, 256, 0, 256);
-
+            side = (ov.getSmoothedAmplitude() * halfH * 3) + size;
+            hue = ov.map(ov.getSmoothedAmplitude(), 0, 1, 0, 256);
 
         }
        
