@@ -1,28 +1,21 @@
 package C22787471;
 
-import ie.tudublin.OurVisual;
 import processing.core.*;
-
-import java.util.ArrayList;
-
 import ddf.minim.*;
+import ie.tudublin.OurVisual;
 
-// This is an example of a visual that renders the waveform
-public class CiaraVisual1 extends PApplet
+public class CiaraVisual1
 {
     OurVisual ov;
-    ArrayList<Firework> fireworks = new ArrayList<>();
-    float[] smoothedBuffer; // Smoothed audio buffer
-    float smoothingFactor = 0.2f;
-
     float cy = 0;
+
 
     // public WaveForm(MyVisual mv)
     public CiaraVisual1(OurVisual ov)
     {
         this.ov = ov;
-        cy = this.ov.height;
-        
+        cy = this.ov.height / 2;
+
     }
 
     public void render()
@@ -35,135 +28,25 @@ public class CiaraVisual1 extends PApplet
                 , 255
                 , 255
             );
-            
-            drawFireworks();
 
+            float y1 = cy + cy * ov.getAudioBuffer().get(i); // Calculating y1
+            float cy1 = i; // Setting cx1 to the current index
+
+            ov.ellipse(i, cy, i, cy + cy * ov.getAudioBuffer().get(i));
+
+            ov.strokeWeight(10);
+            //ov.pushMatrix(); // Save the current transformation matrix
+            ov.translate(cy1, y1); // Move the origin to the current position
+            ov.rotate(ov.radians(ov.random(360)));      
+            //ov.popMatrix(); // Restore the original transformation matrix
+     
+            ov.rotate(ov.radians(ov.random(360))); // Rotate the line with a random angle
+            ov.line(0, 0, 300, 300); // Draw the line
+            //ov.popMatrix(); // Restore the original transformation matrix
+     
+            ov.fill(0); // Fill the shapes with black
         }
     }
-
-    void drawFireworks() {
-        ov.beginShape();
-        ov.background(0);
-
-        AudioBuffer audioBuffer = ov.getAudioBuffer();
-
-        if (smoothedBuffer == null || smoothedBuffer.length != audioBuffer.size()) {
-            // Add a firework at a random position
-            fireworks.add(new Firework(random(width), random(height)));
-        }
-
-        // Update and display each firework
-        for (int i = fireworks.size() - 1; i >= 0; i--) {
-            Firework firework = fireworks.get(i);
-            firework.update();
-            firework.display();
-            // Remove fireworks that have finished exploding
-            if (firework.done()) {
-                fireworks.remove(i);
-            }
-        }
-
-        ov.endShape();
-    }
-
-    class Firework {
-        PVector pos; // Position of the firework
-        ArrayList<Particle> particles; // Particles in the firework explosion
-        int explosionColor; // Color of the explosion
-        boolean exploded; // Flag to indicate if the firework has exploded
-
-        Firework(float x, float y) {
-            pos = new PVector(x, y);
-            particles = new ArrayList<>();
-            exploded = false;
-            explosionColor = color(random(255), random(255), random(255)); // Random explosion color
-        }
-
-        void update() {
-            if (!exploded) {
-                // Simulate the firework rising up
-                pos.x = 500;
-                pos.y = 250;
-                // If the firework reaches its peak, explode
-                if (pos.y <= height * 100) {
-                    explode();
-                }
-            } else {
-                // Update and display each particle in the explosion
-                for (int i = particles.size() - 1; i >= 0; i--) {
-                    Particle p = particles.get(i);
-                    p.update();
-                    p.display();
-                    // Remove particles that have faded out
-                    if (p.done()) {
-                        particles.remove(i);
-                    }
-                }
-            }
-        }
-
-        void explode() {
-            exploded = true;
-            // Create explosion particles
-            for (int i = 0; i < 100; i++) {
-                float angle = random(TWO_PI);
-                float speed = random(2, 5);
-                float vx = cos(angle) * speed;
-                float vy = sin(angle) * speed;
-                Particle p = new Particle(pos.x, pos.y, vx, vy, explosionColor);
-                particles.add(p);
-            }
-        }
-
-        void display() {
-            if (!exploded) {
-                // Draw the firework as a point
-                ov.stroke(255);
-                ov.point(pos.x, pos.y);
-            }
-        }
-
-        boolean done() {
-            return exploded && particles.isEmpty();
-        }
-    }
-
-    class Particle {
-        PVector pos; // Position of the particle
-        PVector vel; // Velocity of the particle
-        int color; // Color of the particle
-        float lifespan; // Lifespan of the particle
-
-        Particle(float x, float y, float vx, float vy, int color) {
-            pos = new PVector(x, y);
-            vel = new PVector(vx, vy);
-            this.color = color;
-            lifespan = 255; // Initial lifespan
-        }
-
-        void update() {
-            // Move the particle
-            pos.add(vel);
-            // Decrease the lifespan
-            lifespan -= 5;
-        }
-
-        void display() {
-            // Draw the particle
-            ov.stroke(color, lifespan);
-            ov.point(pos.x, pos.y);
-        }
-
-        boolean done() {
-            // Check if the particle has faded out
-            return lifespan <= 0;
-        }
-    }
-
-    
-
-
 }
-
 
 
