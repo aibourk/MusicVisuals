@@ -97,5 +97,6 @@ public class OurVisual extends Visual {
         calculateAverageAmplitude();
         // wf.render();
         // abv.render();
+        
     }
 }

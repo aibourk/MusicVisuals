@@ -2,7 +2,6 @@ package C22308773;
 
 import ie.tudublin.OurVisual;
 import processing.core.*;
-import ddf.minim.*;
 
 public class AmyVisual1
 {
@@ -11,16 +10,19 @@ public class AmyVisual1
     float cx = 0;
     float hue = 0f;
 
+    //cube variables
     float rotation;   
     float num = 24f;                         
     float offset = (float)((float)ov.PI/(num * 2));  
 
+    //lines from centre visual variables
     int numLines = 30;            
     float angleStep = ov.TWO_PI / numLines; //spacing of the lines
 
+    //square pattern variables
     Square[] squares;
     int numSquares = 12;
-    
+
 
     public AmyVisual1(OurVisual ov)
     {
@@ -35,21 +37,19 @@ public class AmyVisual1
             squares[i] = new Square(); 
             squares[i].rotation = i * 24;
             squares[i].size = i * 25;
-            squares[i].angle = i * 30;     
+            squares[i].squareNum = i; 
 
         }
         
     }
 
+
     public void render()
     {
 
-       
         ov.colorMode(PApplet.HSB);
-        
         ov.lights();
         ov.background(0);
-
 
         //calling square pattern
         for (Square square : squares)
@@ -90,7 +90,7 @@ public class AmyVisual1
         }
         rotation += 0.01;    
         
-        
+
     }
 
 
@@ -100,8 +100,7 @@ public class AmyVisual1
         float rotation = 0;
         float halfH = ov.height / 2;
         int size = 0;    
-        float angle;
-        float leftRight, upDown;
+        int squareNum;
 
         
         public void display()
@@ -124,8 +123,7 @@ public class AmyVisual1
         {
             rotation += 0.01f;
             side = (ov.getSmoothedAmplitude() * halfH * 3) + size;
-            hue = ov.map(ov.getSmoothedAmplitude(), 0, 1, 0, 256);
-
+            hue = ov.map(ov.getSmoothedAmplitude()+(squareNum/100), 0, 1, 0, 256);
         }
 
 
