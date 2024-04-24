@@ -95,19 +95,19 @@ public class OurVisual extends Visual {
 
         //switch case method
         switch(selectedVisual) {
-            case '0':
+            case '1':
                 ai1.render();
                 break;
-            case '1':
+            case '2':
                 rr1.render();
                 break;
-            case '2':
+            case '3':
                 ct1.render();
                 break;
-            case '3':
+            case '4':
                 am1.render();
                 break;
-            case '4':
+            case '5':
                 am2.render();
             default:
                 am1.render();
