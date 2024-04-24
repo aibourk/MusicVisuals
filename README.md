@@ -17,6 +17,7 @@ Audio Name: Crazy Frog - Axel F
 ![An image](images/AmyVisual.png)
 
 ### Visual 2
+![An image](images/RoxanaVisual1-1.png)(images/RoxanaVisual1-2.png)
 
 ### Visual 3
 
@@ -27,13 +28,14 @@ Audio Name: Crazy Frog - Axel F
 ![An image](images/AleenaVisual1.png)
 
 # Description of the Project
-Using Processing, our team created visuals for our chosen audio Axel F by Crazy Frog. Aleena had to have 2 visuals as the music repeated and also so we all had a similar limit of time to work on. Her visual shows a swirl. Ciaras visual shows rainbow scribbles moving around.Amys visual shows a rose like flower shape and then exposes another abstract shape inside it. It expands to the beat.Roxanas visual is of a frog image that bounces up and down the screen bouncing off the wall and every time it lands on the ground it squishes. Ther is a rainow aura around the frog and also rainbow grass at the bottom of the screen 
+Using Processing, our team created visuals for our chosen audio Axel F by Crazy Frog. Aleena had to have 2 visuals as the music repeated and also so we all had a similar limit of time to work on. Her visual shows a swirl. Ciara's visual shows rainbow scribbles moving around.Amy's visual shows a rose like flower shape and then exposes another abstract shape inside it. It expands to the beat. Roxana's visual is of a frog image that bounces up and down the screen bouncing off the wall and every time it lands on the ground it squishes. There is a rainow aura around the frog and also rainbow grass at the bottom of the screen.
 
 # How it works
-By clicking a key it switches between our visuals, Amy is 1 ,Aleena is 5 ,Ciara is 4 ,Roxana is 2 .
+There is a switch statement with the number keys allowing us to switch between each visual. Amy's visual is 1, Roxana's is 2, Ciara's is 3 and Aleena's is 4 and 5. We also implemented the visuals automatically changing according to the timing of the song. 
 
 AmyVisual1
-- 
+- In this one, there are 3 aspects to the visual:
+	- There is a 
 
 AleenaVisual1
 - 
