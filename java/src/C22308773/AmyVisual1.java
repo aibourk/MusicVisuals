@@ -1,5 +1,6 @@
 package C22308773;
 
+import ddf.minim.AudioBuffer;
 import ie.tudublin.OurVisual;
 import processing.core.*;
 
@@ -12,8 +13,8 @@ public class AmyVisual1
 
     //cube variables
     float rotation;   
-    float num = 24f;                         
-    float offset = (float)((float)ov.PI/(num * 2));  
+    float numCubes = 24f;                         
+    float offset = (float)((float)ov.PI/(numCubes * 2));  
 
     //lines from centre visual variables
     int numLines = 30;            
@@ -22,7 +23,7 @@ public class AmyVisual1
     //square pattern variables
     Square[] squares;
     int numSquares = 12;
-
+    
 
     public AmyVisual1(OurVisual ov)
     {
@@ -55,7 +56,6 @@ public class AmyVisual1
         for (Square square : squares)
         {
             square.display();
-            square.update();
         }
 
 
@@ -77,7 +77,7 @@ public class AmyVisual1
         ov.translate(ov.width/2, ov.height/2); 
         
         //calling cube centre visual
-        for(int i = 0; i < num; i++) 
+        for(int i = 0; i < numCubes; i++) 
         {
             float hue = ov.map(ov.getSmoothedAmplitude(), 0, 1, 0, 256);
             ov.fill(hue, 175, 255);
@@ -105,6 +105,9 @@ public class AmyVisual1
         
         public void display()
         {
+            hue = ov.map(ov.getSmoothedAmplitude()+(squareNum/100), 0, 1, 0, 256);
+            side = (ov.getSmoothedAmplitude() * halfH * 3) + size;
+
             ov.stroke(hue, 175, 255);
             ov.noFill();
             ov.strokeWeight(3);
@@ -115,18 +118,9 @@ public class AmyVisual1
             ov.rectMode(ov.CENTER);
             ov.rect(0, 0, side, side, 25);
             ov.popMatrix();
-            
+
+            rotation += 0.01f;   
         }
-
-
-        public void update()
-        {
-            rotation += 0.01f;
-            side = (ov.getSmoothedAmplitude() * halfH * 3) + size;
-            hue = ov.map(ov.getSmoothedAmplitude()+(squareNum/100), 0, 1, 0, 256);
-        }
-
-
     }
 }
     

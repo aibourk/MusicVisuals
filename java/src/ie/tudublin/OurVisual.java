@@ -85,7 +85,7 @@ public class OurVisual extends Visual {
         }
         else if(getAudioPlayer().position() >= 70001  && getAudioPlayer().position() < 84000)
         {
-            am1.render();
+            am2.render();
         }
         else if(getAudioPlayer().position() >= 84001 && getAudioPlayer().position() < 110000)
         {
