@@ -17,7 +17,8 @@ Audio Name: Crazy Frog - Axel F
 ![An image](images/AmyVisual.png)
 
 ### Visual 2
-
+![An image](images/CiaraVisual1-1.png)
+![An image](images/CiaraVisual1-2.png)
 ### Visual 3
 
 ### Visual 4
@@ -33,9 +34,12 @@ Using Processing, our team created visuals for our chosen audio Axel F by Crazy 
 By clicking a key it switches between our visuals, Amy is 1 ,Aleena is 5 ,Ciara is 4 ,Roxana is 2 .
 # What I am most proud of in the assignment
 -ROXANA
-- I chose the song for this and im half proud of myself and half hate myself for choosing such an upbeat, classic and fun yet such an annoying somehwta repetetive song,
+- I chose the song for this and im half proud of myself and half hate myself for choosing such an upbeat, classic and fun yet such an annoying somewhat repetitive song,
 - I also notes the time stamps for the code which we then changed it to just have a switch case but its the thought that counts
 - I am also proud of how I got the frog to squish whever it landed while hopping, I found it quite hard to do and it did have issues with it line it would stay squished the whole time or not be there at all. 
+
+-CIARA
+- 
 - Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24-1.50s Ciara
 
 -Amy
