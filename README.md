@@ -24,6 +24,7 @@ Audio Name: Crazy Frog - Axel F
 ![An image](images/AleenaVisual2.png)
 
 ### Visual 5
+![An image](images/AleenaVisual1.png)
 
 # Description of the Project
 Using Processing, our team created visuals for our chosen audio Axel F by Crazy Frog. Aleena had to have 2 visuals as the music repeated and also so we all had a similar limit of time to work on. Her visual shows a swirl. Ciaras visual shows rainbow scribbles moving around.Amys visual shows a rose like flower shape and then exposes another abstract shape inside it. It expands to the beat.Roxanas visual is of a frog image that bounces up and down the screen bouncing off the wall and every time it lands on the ground it squishes. Ther is a rainow aura around the frog and also rainbow grass at the bottom of the screen 
