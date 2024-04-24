@@ -20,6 +20,8 @@ Audio Name: Crazy Frog - Axel F
 ![An image](images/RoxanaVisual1-1.png)(images/RoxanaVisual1-2.png)
 
 ### Visual 3
+![An image](images/CiaraVisual1-1.png)
+![An image](images/CiaraVisual1-2.png)
 
 ### Visual 4
 ![An image](images/AleenaVisual2.png)
@@ -61,12 +63,10 @@ Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24
 - I also notes the time stamps for the code which we then changed it to just have a switch case but its the thought that counts
 - I am also proud of how I got the frog to squish whever it landed while hopping, I found it quite hard to do and it did have issues with it line it would stay squished the whole time or not be there at all. 
 
-###Amy
-- 
-- 
-- 
-
 ###Ciara
+- I'm most proud of how this project showcases our creative individuality. I like how different and unique each of our visuals are from each other and I think it suits the music that we've chosen. The aspect I love the most about my part is the fast movement of the shapes and lines. It goes well with the upbeat song in the background.
+
+###Amy
 - 
 - 
 - 
