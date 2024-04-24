@@ -25,13 +25,15 @@ Audio Name: Crazy Frog - Axel F
 ### Visual 5
 
 # Description of the Project
-Using Processing, our team created visuals for our chosen audio Axel F by Crazy Frog. 
-
+Using Processing, our team created visuals for our chosen audio Axel F by Crazy Frog.
 # How it works
+The way it works is that the visuals change based on the switch cases. If you press '0', Amy's visual shows. If you press '1', Roxana's visual shows. If you press '2', my visual shows and key '3' and '4' show Aleena's.
 
 # What I am most proud of in the assignment
+Ciara
 - I chose the song for this and im half proud of myself and half hate myself for choosing such an upbeat, classic and fun yet such an annoying, 
 - Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24-1.50s Ciara
+- I am most proud of how this project allowed us to freely express our creative sides through the visuals we've each made. Though it was a tough project to work on, I feel that the end result turned out to be really great. And I'm proud that each of our visuals are all different and unique.
 # Rough draft 
 - Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24-1.50s Ciara
 # Markdown Tutorial
