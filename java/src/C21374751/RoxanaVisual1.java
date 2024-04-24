@@ -11,26 +11,27 @@ public class RoxanaVisual1
     float yPos; // Vertical position of the frog image
     float hopSpeed; // Horizontal speed of the frog
     float angle; // Angle for rainbow colors
+    int numGrassLines; // Number of grass lines
+    float grassSpacing; // Spacing between grass lines
 
     public RoxanaVisual1(OurVisual ov)
     {
         this.ov = ov;
         frogImage = ov.loadImage("images/frog.png"); // Load the frog image from the "images" folder
-        frogImage.resize(100, 0); // Resize the image width to 100 pixels, keep aspect ratio
+        frogImage.resize(120, 0); // Resize the image width to 120 pixels, keep aspect ratio (slightly bigger)
         xPos = frogImage.width / 2; // Start the frog at the left edge of the screen
         yPos = ov.height - frogImage.height / 2; // Start the frog at the bottom of the screen
         hopSpeed = 5; // Horizontal speed of the frog
         angle = 0; // Initialize angle for rainbow colors
+        numGrassLines = 30; // Number of grass lines
+        grassSpacing = ov.width / numGrassLines; // Calculate spacing between grass lines
     }
 
     public void render()
     {
-        ov.background(10); // Set background to nearly black
-        
-        // Draw stationary square in the background
-        ov.fill(255); // Set color to white
-        ov.rectMode(PApplet.CENTER); // Set rectangle mode to center
-        ov.rect(ov.width / 2, ov.height / 2, 50, 50); // Draw a small square at the center of the screen
+        // Calculate background color based on time
+        float bgBrightness = PApplet.abs(PApplet.sin((float)(ov.frameCount * 0.02))) * 255;
+        ov.background(0, 0, bgBrightness); // Set background to fade from black to blue and back to black
         
         // Update frog position
         xPos += hopSpeed;
@@ -62,5 +63,17 @@ public class RoxanaVisual1
         yPos = ov.constrain(yPos + hopAmount, 0, ov.height - frogImage.height / 2); // Ensure the frog stays within the screen
         
         angle += 0.05; // Increment angle for rainbow colors
+        
+        
+
+        
+        // Draw grass lines at the bottom of the screen
+        for (int i = 0; i < numGrassLines; i++) {
+            float grassX = i * grassSpacing; // Calculate x position for each grass line
+            float grassHeight = ov.random(40, 100); // Randomize grass height
+            ov.strokeWeight(10); // Set grass line thickness
+            ov.stroke((i * 60) % 225, 255, 225); // Rainbow colors // Set grass color to green
+            ov.line(grassX, ov.height, grassX, ov.height - grassHeight); // Draw a vertical grass line
+        }
     }
 }
