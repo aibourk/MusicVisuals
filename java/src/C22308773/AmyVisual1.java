@@ -88,7 +88,7 @@ public class AmyVisual1
             ov.box(200 * (ov.getSmoothedAmplitude() * 3));
             ov.popMatrix();
         }
-        rotation += 0.01;    
+        rotation += 0.01f;    
         
 
     }
