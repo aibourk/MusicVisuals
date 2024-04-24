@@ -20,6 +20,7 @@ public class OurVisual extends Visual {
     RoxanaVisual1 rr1;
     AleenaVisual2 am2;
     char selectedVisual = ' ';
+    public int color;
 
     public boolean isPlaying = false;
 
