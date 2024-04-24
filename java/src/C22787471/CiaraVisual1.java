@@ -37,14 +37,16 @@ public class CiaraVisual1
             ov.strokeWeight(10);
             //ov.pushMatrix(); // Save the current transformation matrix
             ov.translate(cy1, y1); // Move the origin to the current position
+
             ov.rotate(ov.radians(ov.random(360)));      
             //ov.popMatrix(); // Restore the original transformation matrix
-     
+
             ov.rotate(ov.radians(ov.random(360))); // Rotate the line with a random angle
             ov.line(0, 0, 300, 300); // Draw the line
             //ov.popMatrix(); // Restore the original transformation matrix
      
             ov.fill(0); // Fill the shapes with black
+
         }
     }
 }
