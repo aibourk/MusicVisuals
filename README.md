@@ -35,22 +35,22 @@ Using Processing, our team created visuals for our chosen audio Axel F by Crazy 
 # How it works
 There is a switch statement with the number keys allowing us to switch between each visual. Amy's visual is 1, Roxana's is 2, Ciara's is 3 and Aleena's are 4 and 5. We also implemented the visuals automatically changing according to the timing of the song. 
 
-###AmyVisual1
+### AmyVisual1
 - In this visual, there are 3 elements:
 	1. There are 24 rotating cubes displayed using a for loop to create a visual in the centre of the screen. The size and colour are dependant on the amplitude of the audio. The rotation variable gives it a spinning effect as it increments by 0.1 each time render() is called (60 times per second).
 	2. Then there is a lines from centre visual. 30 lines are created using a for loop. The lines start from the centre and radiate outwards. The colour and length of each line is based on the amplitude.
 	3. The outer pattern is created by an array of squares. It begins by every square being initialised, each one being slightly bigger and rotated more than the previous. In render() it calls the method display() from the square class to  change the colour and sized depending on the almplitude and spin the squares around.
 
-###AleenaVisual1
+### AleenaVisual1
 - 
 
-###AleenaVisual2
+### AleenaVisual2
 - 
 
-###RoxanaVisual1
+### RoxanaVisual1
 - 
 
-###CiaraVisual1
+### CiaraVisual1
 - 
 
 
@@ -58,20 +58,20 @@ Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24
 
 
 # What I am most proud of in the assignment
-###Roxana
+### Roxana
 - I chose the song for this and im half proud of myself and half hate myself for choosing such an upbeat, classic and fun yet such an annoying somehwta repetetive song,
 - I also notes the time stamps for the code which we then changed it to just have a switch case but its the thought that counts
 - I am also proud of how I got the frog to squish whever it landed while hopping, I found it quite hard to do and it did have issues with it line it would stay squished the whole time or not be there at all. 
 
-###Ciara
+### Ciara
 - I'm most proud of how this project showcases our creative individuality. I like how different and unique each of our visuals are from each other and I think it suits the music that we've chosen. The aspect I love the most about my part is the fast movement of the shapes and lines. It goes well with the upbeat song in the background.
 
-###Amy
+### Amy
 - 
 - 
 - 
 
-###Aleena
+### Aleena
 - 
 - 
 - 
