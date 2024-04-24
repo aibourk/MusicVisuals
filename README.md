@@ -33,7 +33,7 @@ Audio Name: Crazy Frog - Axel F
 Using Processing, our team created visuals for our chosen audio Axel F by Crazy Frog. Aleena had to have 2 visuals as the music repeated and also so we all had a similar limit of time to work on. Her visual shows a swirl. Ciara's visual shows rainbow scribbles moving around.Amy's visual shows a rose like flower shape and then exposes another abstract shape inside it. It expands to the beat. Roxana's visual is of a frog image that bounces up and down the screen bouncing off the wall and every time it lands on the ground it squishes. There is a rainow aura around the frog and also rainbow grass at the bottom of the screen.
 
 # How it works
-There is a switch statement with the number keys allowing us to switch between each visual. Amy's visual is 1, Roxana's is 2, Ciara's is 3 and Aleena's are 4 and 5. We also implemented the visuals automatically changing according to the timing of the song. 
+There is a switch statement with the number keys allowing us to switch between each visual. Amy's visual is 1, Roxana's is 2, Ciara's is 3 and Aleena's are 4 and 5. We also implemented the visuals automatically changing according to the timing of the song. Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24-1.50s Ciara
 
 ### AmyVisual1
 In this visual, there are 3 elements:
@@ -54,7 +54,6 @@ In this visual, there are 3 elements:
 - 
 
 
-Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24-1.50s Ciara
 
 
 # What I am most proud of in the assignment
@@ -67,9 +66,8 @@ Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24
 - I'm most proud of how this project showcases our creative individuality. I like how different and unique each of our visuals are from each other and I think it suits the music that we've chosen. The aspect I love the most about my part is the fast movement of the shapes and lines. It goes well with the upbeat song in the background.
 
 ### Amy
-- 
-- 
-- 
+- Firstly, I am proud of how well our group worked together. We met up a few times to work on our project together, as well as asked eachother for help when we needed it.
+- I am also happy with how my visual turned out. Though, I had a few issues throughout the process of making it perfect, I managed to do what I aimed to do.
 
 ### Aleena
 - 
