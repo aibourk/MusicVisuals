@@ -39,7 +39,7 @@ By clicking a key it switches between our visuals, Amy is 1 ,Aleena is 5 ,Ciara 
 - I am also proud of how I got the frog to squish whever it landed while hopping, I found it quite hard to do and it did have issues with it line it would stay squished the whole time or not be there at all. 
 
 -CIARA
-- 
+- I'm most proud of how this project showcases our creative individuality. I like how different and unique each of our visuals are from each other and I think it suits the music that we've chosen. The aspect I love the most about my part is the fast movement of the shapes and lines. It goes well with the upbeat song in the background.
 - Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24-1.50s Ciara
 
 -Amy
