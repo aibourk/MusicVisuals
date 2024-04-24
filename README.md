@@ -38,8 +38,8 @@ There is a switch statement with the number keys allowing us to switch between e
 ### AmyVisual1
 - In this visual, there are 3 elements:
 	1. There are 24 rotating cubes displayed using a for loop to create a visual in the centre of the screen. The size and colour are dependant on the amplitude of the audio. The rotation variable gives it a spinning effect as it increments by 0.1 each time render() is called (60 times per second).
-	2. Then there is a lines from centre visual. 30 lines are created using a for loop. The lines start from the centre and radiate outwards. The colour and length of each line is based on the amplitude.
-	3. The outer pattern is created by an array of squares. It begins by every square being initialised, each one being slightly bigger and rotated more than the previous. In render() it calls the method display() from the square class to  change the colour and sized depending on the almplitude and spin the squares around.
+	1. Then there is a lines from centre visual. 30 lines are created using a for loop. The lines start from the centre and radiate outwards. The colour and length of each line is based on the amplitude.
+	1. The outer pattern is created by an array of squares. It begins by every square being initialised, each one being slightly bigger and rotated more than the previous. In render() it calls the method display() from the square class to  change the colour and sized depending on the almplitude and spin the squares around.
 
 ### AleenaVisual1
 - 
