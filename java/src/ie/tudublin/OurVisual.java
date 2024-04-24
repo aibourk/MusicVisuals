@@ -8,6 +8,7 @@ import C22790201.AleenaVisual2;
 import example.AudioBandsVisual;
 import example.WaveForm;
 import ie.tudublin.*;
+import ddf.minim.*;
 
 
 public class OurVisual extends Visual {
@@ -20,15 +21,17 @@ public class OurVisual extends Visual {
     AleenaVisual2 am2;
     char selectedVisual = ' ';
 
+    public boolean isPlaying = false;
+
 
     public void settings() {
-        size(1024, 500);
+        // size(1024, 500);
 
         // Use this to make fullscreen
         // fullScreen();
 
         // Use this to make fullscreen and use P3D for 3D graphics
-        // fullScreen(P3D, SPAN);
+        fullScreen(P3D, SPAN);
     }
 
     public void setup() {
@@ -54,6 +57,8 @@ public class OurVisual extends Visual {
         if (key == ' ') {
             getAudioPlayer().cue(0);
             getAudioPlayer().play();
+            isPlaying = true;
+
         }
         else {
             selectedVisual = key;
@@ -121,5 +126,6 @@ public class OurVisual extends Visual {
         calculateAverageAmplitude();
         // wf.render();
         // abv.render();
+        
     }
 }
