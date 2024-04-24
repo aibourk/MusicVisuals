@@ -3,6 +3,7 @@ package ie.tudublin;
 import C22308773.AmyVisual1;
 import C21374751.RoxanaVisual1;
 import C22787471.CiaraVisual1;
+import C22787471.CiaraVisual2;
 import C22790201.AleenaVisual1;
 import C22790201.AleenaVisual2;
 import example.AudioBandsVisual;
@@ -18,6 +19,7 @@ public class OurVisual extends Visual {
     CiaraVisual1 ct1;
     RoxanaVisual1 rr1;
     AleenaVisual2 am2;
+    CiaraVisual2 ct2;
     char selectedVisual = ' ';
     public int color;
 
@@ -104,6 +106,7 @@ public class OurVisual extends Visual {
                 break;
             case '4':
                 am2.render();
+                break;
             default:
                 am1.render();
                 break;
