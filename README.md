@@ -43,10 +43,13 @@ In this visual, there are 3 elements:
 1. The outer pattern is created by an array of squares. It begins by every square being initialised, each one being slightly bigger and rotated more than the previous. In render() it calls the method display() from the square class to  change the colour and sized depending on the almplitude and spin the squares around.
 
 ### AleenaVisual1
-- 
+This visual displays 4 waveforms. 
+3 waveforms make the background layer. The screen is divided into 3 sections - one for each waveform. Each section of the screen displays a waveform representing a different portion of the audio signal. The waveform color changes based on the audio amplitude, creating a dynamic visual representation of the audio input. 
+The foreground layer renders a spectrum analyzer by dividing the screen into bars, each representing a frequency range, and dynamically changing their height and color based on the audio input
 
 ### AleenaVisual2
-- 
+The first element in this visual are the colour changing spirals. They are rendered by calculating their size, position, and color based on the audio amplitude and drawing them using trigonometric functions
+The second element features a radial burst which is rendered by drawing lines that radiate outward from the center of the screen. The brightness of the lines is determined by the amplitude of the audio signal
 
 ### RoxanaVisual1
 - 
@@ -71,9 +74,8 @@ In this visual, there are 3 elements:
 - I am also happy with how my visual turned out. Though, I had a few issues throughout the process of making it perfect, I managed to do what I aimed to do.
 
 ### Aleena
-- 
-- 
-- 
+- At first this assignment had me very overwhelmed. The fact that it was a group project really alienated the stress, knowing that 4 of us would be working together to achieve this common goal. I am really proud of how the 4 of us worked together - meeting up on our days off and, if we were stuck or had an issue, our communication in the groupchat where we would work together to solve one person's bug.
+- While coding my own visuals, I really had a creative block and imaginitave visuals were not coming to me. I'm proud at how I tackled this obstacle. I started with basic visuals - a waveoform and a spiral, and just trialed and errorred different visuals that would add to the base visual
 
 # Markdown Tutorial
 
