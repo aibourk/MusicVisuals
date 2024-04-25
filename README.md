@@ -17,7 +17,8 @@ Audio Name: Crazy Frog - Axel F
 ![An image](images/AmyVisual.png)
 
 ### Visual 2
-![An image](images/RoxanaVisual1-1.png)(images/RoxanaVisual1-2.png)
+![An image](images/RoxanaVisual1-1.png)
+![An Image](images/RoxanaVisual1-2.png)
 
 ### Visual 3
 ![An image](images/CiaraVisual1-1.png)
