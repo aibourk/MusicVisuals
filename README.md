@@ -69,6 +69,6 @@ I am also happy with how my visual turned out. Though, I had a few issues throug
 - I also notes the time stamps for the code which we then changed it to just have a switch case but its the thought that counts
 - I am also proud of how I got the frog to squish whever it landed while hopping, I found it quite hard to do and it did have issues with it like it would stay squished the whole time or not be there at all. To fix this i had to fix the statement so that the size changed on the frogs vertical posotion.
 
-## Ciara
+### Ciara
 - I'm most proud of how this project showcases our creative individuality. I like how different and unique each of our visuals are from each other and I think it suits the music that we've chosen. The aspect I love the most about my part is the fast movement of the shapes and lines. It goes well with the upbeat song in the background.
 
