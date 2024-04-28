@@ -9,6 +9,7 @@ import C22790201.AleenaVisual2;
 import example.AudioBandsVisual;
 import example.WaveForm;
 import ie.tudublin.*;
+import ddf.minim.*;
 
 
 public class OurVisual extends Visual {
@@ -23,15 +24,17 @@ public class OurVisual extends Visual {
     char selectedVisual = ' ';
     public int color;
 
+    public boolean isPlaying = false;
+
 
     public void settings() {
-        size(1024, 500);
+        // size(1024, 500);
 
         // Use this to make fullscreen
         // fullScreen();
 
         // Use this to make fullscreen and use P3D for 3D graphics
-        // fullScreen(P3D, SPAN);
+        fullScreen(P3D, SPAN);
     }
 
     public void setup() {
@@ -57,6 +60,8 @@ public class OurVisual extends Visual {
         if (key == ' ') {
             getAudioPlayer().cue(0);
             getAudioPlayer().play();
+            isPlaying = true;
+
         }
         else {
             selectedVisual = key;
@@ -82,7 +87,7 @@ public class OurVisual extends Visual {
         }
         else if(getAudioPlayer().position() >= 70001  && getAudioPlayer().position() < 84000)
         {
-            am1.render();
+            am2.render();
         }
         else if(getAudioPlayer().position() >= 84001 && getAudioPlayer().position() < 110000)
         {
@@ -92,23 +97,22 @@ public class OurVisual extends Visual {
 
         //switch case method
         switch(selectedVisual) {
-            case '0':
+            case '1':
                 ai1.render();
                 break;
-            case '1':
+            case '2':
                 rr1.render();
                 break;
-            case '2':
+            case '3':
                 ct1.render();
                 break;
-            case '3':
+            case '4':
                 am1.render();
                 break;
-            case '4':
+            case '5':
                 am2.render();
                 break;
             default:
-                am1.render();
                 break;
         }
 
@@ -125,5 +129,6 @@ public class OurVisual extends Visual {
         calculateAverageAmplitude();
         // wf.render();
         // abv.render();
+        
     }
 }
