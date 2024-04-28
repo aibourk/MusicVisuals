@@ -18,12 +18,10 @@ Audio Name: Crazy Frog - Axel F
 
 ### Visual 2
 ![An image](images/RoxanaVisual1-1.png)
-![An Image](images/RoxanaVisual1-2.png)
+![An image](images/RoxanaVisual1-2.png)
 
 ### Visual 3
 ![An image](images/CiaraVisual1-1.png)
-![An image](images/CiaraVisual1-2.png)
-
 ### Visual 4
 ![An image](images/AleenaVisual2.png)
 
@@ -31,7 +29,7 @@ Audio Name: Crazy Frog - Axel F
 ![An image](images/AleenaVisual1.png)
 
 # Description of the Project
-Using Processing, our team created visuals for our chosen audio Axel F by Crazy Frog. Aleena had to have 2 visuals as the music repeated and also so we all had a similar limit of time to work on. Her visual shows a swirl. Ciara's visual shows rainbow scribbles moving around.Amy's visual shows a rose like flower shape and then exposes another abstract shape inside it. It expands to the beat. Roxana's visual is of a frog image that bounces up and down the screen bouncing off the wall and every time it lands on the ground it squishes. There is a rainow aura around the frog and also rainbow grass at the bottom of the screen.
+Using Processing, our team created visuals for our chosen audio Axel F by Crazy Frog. Aleena had to have 2 visuals as the music repeated and also so we all had a similar limit of time to work on. Her visual shows a swirl. Ciaras visual shows rainbow scribbles moving around.Amys visual shows a rose like flower shape and then exposes another abstract shape inside it. It expands to the beat.Roxanas visual is of a frog image that bounces up and down the screen bouncing off the wall and every time it lands on the ground it squishes. There is a rainow aura around the frog and also rainbow grass at the bottom of the screen hip hop .
 
 # How it works
 There is a switch statement with the number keys allowing us to switch between each visual. Amy's visual is 1, Roxana's is 2, Ciara's is 3 and Aleena's are 4 and 5. We also implemented the visuals automatically changing according to the timing of the song. Time stamps : 0-27s Amy, 28-42s Aleena, 43-1.10s Roxana, 1.11-1.24s Aleena, 1.24-1.50s Ciara
@@ -52,23 +50,12 @@ The first element in this visual are the colour changing spirals. They are rende
 The second element features a radial burst which is rendered by drawing lines that radiate outward from the center of the screen. The brightness of the lines is determined by the amplitude of the audio signal
 
 ### RoxanaVisual1
-- 
+I am also happy with how my visual turned out. Though, I had a few issues throughout the process of making it perfect, I managed to do what I aimed to do. RoxanaVisual1.java works by firstly declaring the package in this instance C21374751 student number,after import statements and class declaration it declares the fields such as ourvisual ov, images and floats variables which will be used in RoxanaVisual1 . Then I constructed the body for the frog image and grass such as positioning and moveent like the frog hopping then with render i set the background colours to fade, and make it so the frog bounces back when it reaches the walls and changes directions and change and crates the raimbow aura around the frog image by altering an ellipse , also im render i coded the squish effect and the grass to alter in height
 
 ### CiaraVisual1
-- 
-
-
 
 
 # What I am most proud of in the assignment
-### Roxana
-- I chose the song for this and im half proud of myself and half hate myself for choosing such an upbeat, classic and fun yet such an annoying somehwta repetetive song,
-- I also notes the time stamps for the code which we then changed it to just have a switch case but its the thought that counts
-- I am also proud of how I got the frog to squish whever it landed while hopping, I found it quite hard to do and it did have issues with it line it would stay squished the whole time or not be there at all. 
-
-### Ciara
-- I'm most proud of how this project showcases our creative individuality. I like how different and unique each of our visuals are from each other and I think it suits the music that we've chosen. The aspect I love the most about my part is the fast movement of the shapes and lines. It goes well with the upbeat song in the background.
-
 ### Amy
 - Firstly, I am proud of how well our group worked together. We met up a few times to work on our project together, as well as asked eachother for help when we needed it.
 - I am also happy with how my visual turned out. Though, I had a few issues throughout the process of making it perfect, I managed to do what I aimed to do.
@@ -76,66 +63,12 @@ The second element features a radial burst which is rendered by drawing lines th
 ### Aleena
 - At first this assignment had me very overwhelmed. The fact that it was a group project really alienated the stress, knowing that 4 of us would be working together to achieve this common goal. I am really proud of how the 4 of us worked together - meeting up on our days off and, if we were stuck or had an issue, our communication in the groupchat where we would work together to solve one person's bug.
 - While coding my own visuals, I really had a creative block and imaginitave visuals were not coming to me. I'm proud at how I tackled this obstacle. I started with basic visuals - a waveoform and a spiral, and just trialed and errorred different visuals that would add to the base visual
+ 
+### Roxana
+- I chose the song for this and im half proud of myself and half hate myself for choosing such an upbeat, classic and fun yet such an annoying somewhat repetitive song,
+- I also notes the time stamps for the code which we then changed it to just have a switch case but its the thought that counts
+- I am also proud of how I got the frog to squish whever it landed while hopping, I found it quite hard to do and it did have issues with it like it would stay squished the whole time or not be there at all. To fix this i had to fix the statement so that the size changed on the frogs vertical posotion.
 
-# Markdown Tutorial
-
-This is *emphasis*
-
-This is a bulleted list
-
-- Item
-- Item
-
-This is a numbered list
-
-1. Item
-1. Item
-
-This is a [hyperlink](http://bryanduggan.org)
-
-# Headings
-## Headings
-#### Headings
-##### Headings
-
-This is code:
-
-```Java
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-So is this without specifying the language:
-
-```
-public void render()
-{
-	ui.noFill();
-	ui.stroke(255);
-	ui.rect(x, y, width, height);
-	ui.textAlign(PApplet.CENTER, PApplet.CENTER);
-	ui.text(text, x + width * 0.5f, y + height * 0.5f);
-}
-```
-
-This is an image using a relative URL:
-
-![An image](images/p8.png)
-
-This is an image using an absolute URL:
-
-![A different image](https://bryanduggandotorg.files.wordpress.com/2019/02/infinite-forms-00045.png?w=595&h=&zoom=2)
-
-This is a youtube video:
-
-[![YouTube](http://img.youtube.com/vi/J2kHSSFA4NU/0.jpg)](https://www.youtube.com/watch?v=J2kHSSFA4NU)
-
-This is a table:
-
+## Ciara
+- I'm most proud of how this project showcases our creative individuality. I like how different and unique each of our visuals are from each other and I think it suits the music that we've chosen. The aspect I love the most about my part is the fast movement of the shapes and lines. It goes well with the upbeat song in the background.
 
