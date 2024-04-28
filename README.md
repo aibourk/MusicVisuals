@@ -53,6 +53,7 @@ The second element features a radial burst which is rendered by drawing lines th
 I am also happy with how my visual turned out. Though, I had a few issues throughout the process of making it perfect, I managed to do what I aimed to do. RoxanaVisual1.java works by firstly declaring the package in this instance C21374751 student number,after import statements and class declaration it declares the fields such as ourvisual ov, images and floats variables which will be used in RoxanaVisual1 . Then I constructed the body for the frog image and grass such as positioning and moveent like the frog hopping then with render i set the background colours to fade, and make it so the frog bounces back when it reaches the walls and changes directions and change and crates the raimbow aura around the frog image by altering an ellipse , also im render i coded the squish effect and the grass to alter in height
 
 ### CiaraVisual1
+The way my code works is that it iterates over the audio buffer to draw dynamic visualizations. By adjusting stroke colors, drawing ellipses based on audio amplitudes, and rotating lines around them, it creates engaging visual representations of the audio input.
 
 
 # What I am most proud of in the assignment
